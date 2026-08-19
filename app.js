@@ -1,3 +1,3 @@
-let msg = "   Hello there.    "
-let newMsg = msg.trim().toUpperCase();
-console.log(newMsg);
+let names = ["roy", "mohit", "shankie"];
+names[0] = "rohit"
+console.log(names[1][4]);
