@@ -40,8 +40,8 @@ while(true){
         alert(`Congratulations you are right! Answer is: ${random}`); // Un-commented this so it actually pops up!
         break;
     } else if(guessNum > random){
-        guess = prompt("hint: Your number is larger. Try again !!");
+        guess = prompt(" Your number is larger. Try again !!");
     } else {
-        guess = prompt("hint: Your number is smaller. Try again !!");
+        guess = prompt("hint: Your number is smaller Try again !!");
     } 
 }
