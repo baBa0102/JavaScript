@@ -18,3 +18,14 @@ function getSum(n){
 
 }
 console.log(sum); //out of scope
+
+//higher order function
+function multipleGreet(func, count){
+    for (let i=1; i<= count; i++){
+        func();
+    }
+}
+function greet(){
+    console.log("Hacked");
+}
+multipleGreet(greet, 3);
